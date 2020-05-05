@@ -15,7 +15,9 @@ NC='\033[0m' # No Color
 
 show_welcome () {
 	clear
-	printf "${CYAN}ShiVa 2.0 - CLI Server packaging script for Linux\nShiVa 2.0 is (c) ShiVa Technologies SAS\nhttp://www.shiva-engine.com${NC}\n\n"
+	printf "${CYAN}ShiVa 2.0 - CLI Server packaging script for Linux\n"
+	printf "ShiVa 2.0 is (c) ShiVa Technologies SAS\n"
+	printf "http://www.shiva-engine.com${NC}\n\n"
 }
 show_welcome
 
